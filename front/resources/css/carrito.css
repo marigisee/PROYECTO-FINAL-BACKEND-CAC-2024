@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(236, 236, 235);
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.navBar{
+    background-color: #ffe600; 
+}
+
+.form-control{
+    border-radius: 0rem;
+}
+
+/* ------------ NAVBAR ------------  */
+
+
+/* ----- PARTE TOP DEL NAVBAR ----- */
+
+
+
+
+/* navBar bottom config */
+
+.shipInfo{
+    padding-left: 1rem;
+    text-decoration: none;
+    padding-bottom: 0;
+}
+
+.shipInfo a{
+    text-decoration: none;
+}
+
+.shipInfo .nombreEnvio{
+    color: #696969;
+    font-size:12px;
+}
+
+.shipInfo .direcUser{
+    color: black;
+}
+
+.navBar-btm-left{
+    font-size: small;
+}
+
+.navBar-btm-center{
+    font-size: medium;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 1rem; /* Ajusta el margen entre los elementos de la lista */
+}
+
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 20px; /* Ajusta el margen derecho solo del último elemento */
+}
+
+/* font config de los elementos navBar*/
+.navbar-nav-custom {
+    font-size: small;   
+    color: black !important;
+}
+
+/* foont config de los elementos prod*/
+.custom-nav-prod {
+    font-size:small;
+}
+
+.nav-item{
+    text-transform: capitalize;
+}
+
+.opItem .nav-item {
+    color: rgb(0, 76, 255);
+}
+
+.opItem .nav-item:first-child{
+    margin-left:0;
+    padding-left: 0;
+}
+
+.descrItem {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+.descrItem a{
+    color: black !important;
+    text-decoration: none;
+    font-weight:600;
+}
+
+/* Resumen compra **/
+
+.custom-img{
+    max-width: auto;
+    max-height: 64px;
+}
+
+
+.itemInfo{
+    padding-left: 2rem;
+}
+
+.nameSeller{
+    text-decoration:none;
+    color:black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-custom{
+    padding-left: 0!important;
+    text-decoration: none;
+    font-size: small;
+}
+
+.priceProd {
+    text-decoration:none;
+    color:black;
+    font-size:large;
+}
+
+.priceShipping{
+    text-decoration:none;
+    color:black;
+    font-size:small;
+}
+
+.totalPrice{
+    font-weight: 600;
+    font-size:large;
+}

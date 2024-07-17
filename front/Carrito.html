@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/carrito.css">
+</head>
+<body>
+    <header>
+        <div class="navBar">
+
+            <!-- navbar top -->
+            <div class="navBar-top pb-3 container justify-content-around">
+                        <div class="row">
+
+                            <div class="col-lg-2 meliIcon">
+                                <img src="resources\images\mlicon.png">
+                            </div>
+                            
+                            <div class="col-lg-7 searchBar">
+                                <input class="form-control m-2" type="search" placeholder="Buscar productos, marcas y más..." aria-label="Search">
+
+                            
+                            </div>
+                            
+                            <div class="col-lg-3 disneyIcon">
+                                <img src="resources\images\disney.png">
+                            
+                            </div>
+                        </div>
+            </div>
+
+            <!-- navbar btm -->
+            <div class="navBar-btm pb-2 container">
+
+                    <div class="row">
+                    
+                        <!-- navbar btm left -->
+
+                        <div class="navBar-btm-left col-2 d-flex flex-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                              </svg>
+                            <div class="d-flex flex-column shipInfo">
+                                <a class="nombreEnvio">Enviar a nombreUser</a>
+                                <a class="direcUser">Calle 11</a>
+                            </div>
+                        </div>
+
+                        <!-- navbar btm center -->
+                    
+                        <div class="col-lg-6 navBar-btm-center">
+                            <ul class="navbar-nav navbar-nav-custom d-flex flex-row justify-content-center custom-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Categorías
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Historial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Supermercado</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Vender</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Ayuda</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- navbar btm right -->    
+                        
+                        <div class="d-flex align-items-center col-lg-4 navBar-btm-right">
+                            <div class="navbar-nav navbar-nav-custom d-flex flex-row justify-content-center align-items-center">
+                                <ul class="navBar-btm-elements navbar-nav d-flex flex-row">
+                                    <li class="nav-item">
+                                        nombreUsuario
+                                    </li>
+                                    <li class="nav-item">
+                                        Mis compras
+                                    </li>
+                                    <li class="nav-item">
+                                        favoritos
+                                    </li>
+                                    <li class="nav-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                                          </svg>
+                                    </li>
+                                    <li class="nav-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                                          </svg>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div> <!-- end row -->
+            </div> <!-- end navbar btm -->
+
+        </div>
+    </header>
+
+    <main>
+        <div class="mainPage container">
+
+            <div class="row row-cols-2">
+
+                    <div id="productosLista" class="col-lg-8 col-md-6 d-flex flex-column gap-3">
+
+                            <!-- Acá es donde vamos a agregar los elementos que queremos comprar -->
+                                       
+
+                    </div> <!-- end productosLista + d-flex gap-5 -->
+
+                    <div class="totalCompra sticky-top col-lg-4 col-md-4">
+                        <div class="card summary-card">
+                          <div class="card-header summary-card-header">Resumen de compra</div>
+                          <div class="card-body">
+                            <div class="row">
+                              <div class="col-6">Productos</div>
+                              <div class="col-6 text-end" id="productosPrecio">$priceproduct<sup>cents</sup></div>
+                              <div class="col-6">Envíos</div>
+                              <div class="col-6 text-end" id="enviosPrecio">$priceshipping<sup>cents</sup></div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                              <div class="col-6 totalPrice">Total</div>
+                              <div class="col-6 totalPrice text-end" id="totalPrecio">$totalprice<sup>cents</sup></div>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Continuar compra</button>
+                          </div>
+                        </div>
+                      </div>
+
+            </div> <!-- end row -->
+
+            </div> 
+        </div> <!-- mainPage-->
+    </main>
+</body>
+<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/CarritoPeticion.js"></script>
+</html>
